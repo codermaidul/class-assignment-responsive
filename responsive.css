@@ -1,0 +1,141 @@
+
+/* width 1500px start */
+
+@media (max-width: 1500px) {
+    .about-inner img {
+        max-width: 100%;
+        position: relative;
+        right: 24px;
+    }
+
+}
+
+/* width 1500px end */
+
+
+/* width 1200px start */
+@media (max-width: 1200px) {
+    .service-section .servic-div {
+        padding: 21px 75px;       
+        width: 50%;
+        padding-bottom: 27px;
+    }
+    .about-inner img {
+        max-width: 339px;
+        margin-top: 23px;
+    }
+
+}
+/* width 1200px end */
+
+
+/* width 992px start */
+@media (max-width: 992px) {
+
+    .banner-section .banner-inner {
+        padding: 140px 0;
+    }
+    .service-section .servic-div {
+
+    }
+}
+/* width 992px end */
+
+
+/* width 768px start */
+@media (max-width: 768px) {
+    .header-left {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+        margin: auto;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .banner-section .banner-inner {
+        padding: 100px 0;
+    }
+    .service-section .servic-div {
+        padding: 11px 50px;
+        width: 100%;
+    }
+    .about-content {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .about-inner {
+        width: 100%;
+        margin-left: 0;
+    }
+    .about-inner {
+        width: 100%;
+        position: relative;
+        left: 23px;
+        right: 0;
+    }
+    .about-inner img{
+        max-width: 100%;
+    }
+}
+/* width 768px end */
+
+.header-right span{
+    display: none;
+}
+
+/* width 576px start */
+@media (max-width: 576px) {
+    .header-left {
+        width: 50%;
+    }
+    .header-right {
+        width: 50%;
+        position: relative;
+    }
+    .header-right ul {
+        display:none;
+    }
+    .header-right span {
+        position: absolute;
+        top: 2px;
+        right: 68px;
+        font-size: 28px;
+        color: #fff;
+        display: block;
+        cursor: pointer;
+    }
+    .service-section .service {
+        padding: 30px 0;
+    }
+    .banner-section .banner-inner {
+        padding: 70px 0;
+    }
+    .banner-section .banner-inner h1 {
+        font-size: 22px;
+    }
+    .banner-section .banner-inner p {
+        font-size: 14px;
+        margin-bottom: -3px;
+    }
+    .about-section .about-part .about {
+        padding: 30px 0;
+    }
+    .contact-me {
+        width: 100%;
+        margin-bottom: 43px;
+    }
+    .contact-section .contact-part {
+        padding-bottom: 15px;
+    }
+    .contact-section .contact-part .contact {
+        padding: 30px 0;
+    }
+    .text-muted {
+        font-size: 12px;
+    }
+}
+/* width 576px end */
